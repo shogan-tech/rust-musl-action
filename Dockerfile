@@ -11,7 +11,6 @@ LABEL com.github.actions.color="orange"
 ENV BUILD_DIR=/build \
     OUTPUT_DIR=/output \
     RUST_BACKTRACE=1 \
-    BUILD_TARGET=x86_64-unknown-linux-musl \
     OPENSSL_LIB_DIR=/usr/local/ssl/lib \
     OPENSSL_INCLUDE_DIR=/usr/local/ssl/include \
     OPENSSL_STATIC=1 \
