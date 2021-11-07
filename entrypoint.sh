@@ -5,7 +5,7 @@ cd $GITHUB_WORKSPACE
 apt-get update
 apt-get install -y \
     build-essential \
-    cmake 3.10.2 \
+    cmake \
     git \
     wget \
     clang \
