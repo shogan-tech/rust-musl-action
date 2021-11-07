@@ -24,7 +24,12 @@ wget -nc https://s3.dockerproject.org/darwin/v2/MacOSX10.10.sdk.tar.xz
 mv MacOSX10.10.sdk.tar.xz tarballs/
 UNATTENDED=yes OSX_VERSION_MIN=10.7 ./build.sh
 
-PATH="$(pwd)/osxcross/target/bin:$PATH"
+echo "PWD and list dir"
+pwd
+ls -la
+ls -la /
+
+PATH="/github/workspace/osxcross/target/bin:$PATH"
 
 rustup default stable
 rustup target add x86_64-unknown-linux-musl
