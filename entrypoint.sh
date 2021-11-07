@@ -6,6 +6,7 @@ apt-get update
 apt-get install -y \
     build-essential \
     cmake \
+    libxml2-dev \
     git \
     wget \
     clang \
