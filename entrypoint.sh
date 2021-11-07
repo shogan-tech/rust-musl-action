@@ -2,7 +2,8 @@
 set -Eeuxo pipefail
 cd $GITHUB_WORKSPACE
 
-apt install \
+apt-get update
+apt-get install -y \
     clang \
     gcc \
     g++ \
