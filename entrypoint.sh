@@ -7,6 +7,7 @@ apt-get install -y \
     build-essential \
     cmake \
     libxml2-dev \
+    libssl-dev \
     git \
     wget \
     clang \
