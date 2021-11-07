@@ -4,6 +4,8 @@ cd $GITHUB_WORKSPACE
 
 apt-get update
 apt-get install -y \
+    git \
+    wget \
     clang \
     gcc \
     g++ \
